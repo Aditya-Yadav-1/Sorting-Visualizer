@@ -40,9 +40,6 @@ function enable_buttons()
         {
             algo_button[i].classList=[];
             algo_button[i].classList.add("butt_unselected");
-            // in_gen.classList.add("butt_unselected");
-            // in_size.classList.add("butt_unselected");
-            // in_speed.classList.add("butt_unselected");
 
             algo_button[i].disabled=false;
             in_size.disabled=false;
@@ -50,5 +47,4 @@ function enable_buttons()
             in_speed.disabled=false;
         }
     },c_delay);
-    c_delay+=delay_time;
 }
