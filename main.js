@@ -17,8 +17,8 @@ function generate_array(){
     cont.innerHTML="";
 
     for(var i=0;i<array_size;i++){
-        // arr[i]=Math.floor(Math.random()*100) +1;
-        arr[i]=Math.floor(Math.random() * 0.5*(in_size.max - in_size.min) ) + 10;
+        arr[i]=Math.floor(Math.random()*100) +1;
+        // arr[i]=Math.floor(Math.random() * 0.5*(in_size.max - in_size.min) ) + 10;
         divs[i]=document.createElement("div");
         cont.appendChild(divs[i]);
         margin_size=0.1;
