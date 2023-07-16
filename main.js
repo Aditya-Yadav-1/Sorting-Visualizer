@@ -74,7 +74,7 @@ function runalgo(){
 
 function displaytime(){
     window.setTimeout(function(){
-        document.getElementById("time_taken").innerHTML="TIME TAKEN: " + c_delay/1000 +" s";
+        document.getElementById("time_taken").innerHTML="TIME TAKEN: " + (c_delay/1000).toFixed(5) +" s";
     },c_delay);
 }
 
