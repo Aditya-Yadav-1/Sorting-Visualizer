@@ -49,6 +49,14 @@ header nav button:hover{
     padding-left: 30px;
 }
 
+#a_size{
+    color: blue;
+}
+
+#a_speed{
+    color: blue;
+}
+
 .controller div{
     padding: 5px;
 }
